@@ -1,0 +1,89 @@
+.container {
+    text-align: center;
+  }
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(54, 37, 15);
+    background-color: rgb(185, 167, 149);
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+    
+}
+p{
+    font-weight: bold;
+}
+.rizz{
+    display: block;
+    border: 2px solid lime;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    font-size: 250%;
+    font-family: chiller, papyrus;
+    font-weight: bold;
+}
+.rizz:hover{
+    font-size: 500%;
+    color: blueviolet;
+    border: 5px darkcyan dashed;
+}
+a:visited{
+    color: azure;
+}
+img{
+    border: blanchedalmond 3px solid;
+    padding: 5px;
+    margin: 10px;
+}
+ul > li:hover{
+    text-decoration: underline;
+    background-color: beige;
+}
+a:hover{
+    text-decoration: overline;
+}
+a{
+    color: antiquewhite;
+}
+.common{
+    position: absolute;
+    border: 2px solid azure;
+    padding: 5px;
+    margin: 5px;
+   
+}
+.bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    font-style: italic;
+    background-color: antiquewhite;
+}
+.top{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+.content{
+    top: 150px;
+    bottom: 50px;
+    left: 0px;
+    right: 0px;
+}
+.nav{
+    z-index: 1;
+    position: relative;
+    float: right;
+}
+.video-container iframe {
+
+    display: block;
+  
+    margin: 0 auto;
+  
+  }
